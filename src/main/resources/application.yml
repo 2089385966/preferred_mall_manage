@@ -1,0 +1,11 @@
+logging:
+  level:
+    com.gb.preferredMallManage.dao: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.130.84.123:3306/preferred_mall_manage
+    username: root
+    password: 20021025gb
+mybatis:
+  mapper-locations: classpath:Mapper/*.xml
